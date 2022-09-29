@@ -1,0 +1,222 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing : border-box;  
+}
+.header{
+    width:100%;
+    height:70px;
+    background-color: rgb(248, 108, 108);;
+    display: flex;
+    justify-content: center;
+}
+.header-container{
+    width: 80%;
+    height: 70px;
+    /* background-color: red; */
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    width:20%;
+    height:70px;
+    /* background-color:yellow; */
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:50px;
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+    color:rgb(33, 33, 93)
+    
+}
+.nav{
+    width:25%;
+    height:70px;
+    /* background-color:blue; */
+    display:flex;
+    align-items:center;
+}
+.nav-links{
+    width:100%;
+    display:flex;
+    list-style-type: none;
+    /* color:white; */
+    justify-content:space-between;
+    font-size:25px;
+    font-weight:400;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.nav-item{
+    cursor:pointer;
+}
+ /* banner css */
+.banner{
+   width:100%;
+   /* height:700px; */
+  background-color: azure;
+   /* background-color: #f6f6f6; */
+   display: flex;
+   overflow: hidden;
+}
+img{
+    /* width:300px; */
+    height:690px;
+}
+.banner-details{
+    width:50%;
+    height:700px;
+    background-color:azure;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+}
+.banner-text{
+    width:70%;
+    height:500px;
+    /* background-color: white; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 10px;
+}
+.banner-title{
+    font-size:60px;
+    font-family: segoe UI;
+    text-transform: uppercase;
+    font-weight: 300;
+}
+.highlight{
+    width:60%;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border:15px solid rgb(33, 33, 93);
+    font-size: 120px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color:rgb(33, 33, 93);
+
+}
+/* branding section css */
+.branding{
+   width:100%;
+   /* height:800px; */
+   background-color:azure;
+   /* padding-left:15%;
+   padding-right: 15%; */
+   padding: 50px 15%; /* shorthand notation */
+   display: flex;
+   column-gap: 5%;
+   background-size: cover;
+   background-image: no-repeat;
+
+}
+.branding-1{
+   width:30%;
+   height: 800px;
+   background-color: rgb(248, 108, 108);
+   background-image: url('images/product1.webp');
+   /* size: 200px; */
+   background-size: cover;
+   background-image: no-repeat;
+   padding:0 5%;
+   padding: 100px 5%;
+   display: flex;
+   align-items: flex-end;
+   font-size:40px;
+   font-weight: bold;
+   font-family: segoe UI;
+   color:white;
+   justify-content: center;
+   text-transform: uppercase;
+}
+.branding-2{
+    width:30%;
+   height: 800px;
+   /* background-color: gray; */
+   background-image: url('images/product2.webp');
+   /* size: 200px; */
+   background-size: cover;
+   background-image: no-repeat;
+   padding: 100px 5%;
+   display: flex;
+   align-items: flex-end;
+   font-size:40px;
+   font-weight: bold;
+   font-family: segoe UI;
+   color:white;
+   justify-content: center;
+   text-transform: uppercase;
+
+}
+.branding-3{
+    width:30%;
+   height: 800px;
+   background-color: rgb(248, 108, 108);
+    background-image: url('images/sale.webp'); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 10%;
+  font-size: 40px;
+  font-family: seugoe UI;
+  font-weight: bolder;
+}
+.brand-title{
+    background: rgb(248, 108, 108);
+    padding:20px;
+}
+/* product css */
+.products{
+    width:100%;
+    height: 600px;
+    background-color: azure;
+    padding: 50px 10%;
+    display: flex;
+}
+.product{
+    /* height: 500px; */
+    padding-bottom: 10px;
+    width:20%;
+   background-color:white;
+    margin-left: 95px;
+    
+}
+.product-img{
+    height:350px;
+    width:100%;
+    /* background-color: blue; */
+    overflow: hidden;
+}
+.pro-img{
+    width:100%;
+    height:350px;
+}
+.product-details{
+    padding:10px;
+    font-family: segoe UI;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+}
+.btn-1{
+    padding:12px 20px;
+    background-color:rgb(248, 108, 108);
+    border:none;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.btn-2{
+    padding:10px 20px;
+    background-color:rgb(248, 108, 108);
+    border:none;
+    color:white;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+
